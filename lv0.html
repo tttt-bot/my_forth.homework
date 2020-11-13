@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        const person = {
+            name: 'Boson',
+            age: 20,
+            address: {
+                city: 'chongqing',
+                area: 'Nanan'
+            }
+        }
+       const {
+           name,
+           age,
+           address: {
+               city,
+               area,
+           }
+       }
+        = person
+        console.log (name, age, city, area);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
